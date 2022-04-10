@@ -9,6 +9,8 @@ import {
   SiUbuntu,
   SiFigma,
   SiUikit,
+  SiGithub,
+  SiFirebase,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -28,6 +30,16 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <h1>VS Code</h1>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+        <h1>GitHub</h1>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+        <h1>Firebase</h1>
       </Col>
     
       <Col xs={4} md={2} className="tech-icons">

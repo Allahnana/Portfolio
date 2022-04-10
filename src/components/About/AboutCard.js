@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Usman Abdulhadi Allahnana </span> 
              from <span className="purple"> Jos, Nigeria.</span>
-            <br />I am a junior front-end developer and UI/UX Designer, also a final year student in the Unuversity of Jos, Nigeria.
+            <br />I am a junior front-end developer and UI/UX Designer, also a final year student in the University of Jos, Nigeria.
             <br />
             <br />
             Apart from coding & Design, some other activities that I love to do are!
@@ -28,7 +28,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Aspiring to build things that makes difference!"{" "}
           </p>
           <footer className="blockquote-footer">Dev_Abdul</footer>
         </blockquote>
