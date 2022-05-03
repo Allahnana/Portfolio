@@ -42,10 +42,6 @@ function Techstack() {
       </Col>
 
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <h1>Blockchain</h1>
-      </Col>
 
 
      
