@@ -41,6 +41,13 @@ function Techstack() {
         <h1>Git</h1>
       </Col>
 
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h1>Blockchain</h1>
+      </Col>
+
+
      
 
        
