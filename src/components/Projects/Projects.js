@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
+import netflix from "../../Assets/Projects/netflix.png";
 import github from "../../Assets/Projects/github.png";
 
 function Projects() {
@@ -30,10 +30,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              title="Ai For Social Good"
+              imgPath={netflix}
+              title="Netflix Clone"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              link="https://github.com/Allahnana/Netflix-clone"
             />
           </Col>
 
