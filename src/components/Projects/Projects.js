@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={github}
               title="GitHub Finder"
-              description="So I built this mini project to sharpen up the basics i learned in HTML, CSS and Javascript. It's a project where one can search for a github user by username and the UI will display the users Profile image,Repos, 5 recent repos, location, company, bio and so on.."
+              description="So I built this mini project to sharpen up the basics i learned in HTML, CSS and Javascript. It's a project where one can search for a github user by username and the UI will display the users Profile image,Repos, 5 recent repos, location, company, bio and so on."
               link="https://github.com/Allahnana/GitHub-Finder"
             />
           </Col>
