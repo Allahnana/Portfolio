@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import portfolio from "../../Assets/Projects/portfolio.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import github from "../../Assets/Projects/github.png";
 
@@ -32,18 +32,17 @@ function Projects() {
             <ProjectCard
               imgPath={netflix}
               title="Netflix Clone"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Fakeflix is a netflix clone. Netflix is a streaming service that offers a wide variety of award winning TV shows and movies. I have used Reactjs and Styled components for frontend and firebase for the backend. It is design to give near perfect experience of using the original netflix. I hope you like the implementation of the clone."
               link="https://github.com/Allahnana/Netflix-clone"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              imgPath={portfolio}
+              title="My Portfolio"
+              description=" I used Reactjs to build this amazing portfolio website, this is the latest project i have worked on in 2022. Reactjs is one of the best technology i have ever worked with. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to connect with me. Your feedbacks are always appriciated."
+              link="https://github.com/Allahnana/Portfolio"
             />
           </Col>
         </Row>
