@@ -42,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={portfolio}
               title="My Portfolio"
-              description=" I used Reactjs to build this amazing portfolio website, this is the latest project i have worked on in 2022. Reactjs is one of the best technology i have ever worked with. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to connect with me. Your feedbacks are always appriciated."
+              description=" I used Reactjs to build this amazing portfolio website, this is the latest project i have worked on in 2022. Reactjs is one of the best technology i have ever worked with. It is fast smooth and trendy. I have used Plain css to make this design. Hope you will like it. Feel free to connect with me. Your feedbacks are always appriciated."
               link="https://github.com/Allahnana/Portfolio"
             />
           </Col>
@@ -51,8 +51,8 @@ function Projects() {
             <ProjectCard
               imgPath={cgpa}
               title="CGPA Calculator"
-              description=" I used Reactjs to build this amazing portfolio website, this is the latest project i have worked on in 2022. Reactjs is one of the best technology i have ever worked with. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to connect with me. Your feedbacks are always appriciated."
-              link="https://github.com/Allahnana/Portfolio"
+              description=" I used HTML, CSS, Bootstrap and Javascript to build this mini project. Hope you will like it. Feel free to connect with me. Your feedbacks are always appriciated."
+              link="https://github.com/Allahnana/CGPA-Calculator"
             />
           </Col>
 
