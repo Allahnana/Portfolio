@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import cgpa from "../../Assets/Projects/cgpa.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import github from "../../Assets/Projects/github.png";
 
@@ -15,7 +16,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
     
@@ -45,6 +46,16 @@ function Projects() {
               link="https://github.com/Allahnana/Portfolio"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cgpa}
+              title="CGPA Calculator"
+              description=" I used Reactjs to build this amazing portfolio website, this is the latest project i have worked on in 2022. Reactjs is one of the best technology i have ever worked with. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to connect with me. Your feedbacks are always appriciated."
+              link="https://github.com/Allahnana/Portfolio"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
