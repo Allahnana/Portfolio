@@ -13,7 +13,7 @@ function AboutCard() {
             <br />I am a junior front-end developer and UI/UX Designer, also a final year student in the University of Jos, Nigeria.
             <br />
             <br />
-            Apart from coding & Design, some other activities I love doing are!
+            Apart from coding & Design, some other activities I love doing are!!!
           </p>
           <ul>
             <li className="about-activity">
