@@ -6,6 +6,7 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import cgpa from "../../Assets/Projects/cgpa.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import github from "../../Assets/Projects/github.png";
+// import hoobank from "../../Assets/Projects/hoobank.png";
 
 function Projects() {
   return (
